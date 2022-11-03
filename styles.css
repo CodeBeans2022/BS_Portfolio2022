@@ -8,5 +8,52 @@ width: 200px;
 padding: 10px;
 }
 
+form,
+input,
+textarea,
+.shadow {
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  color: white;
+  padding: 5% 10%;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 75%;
+ 
+}
+
+
+
+.myform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mapouter {
+  height: 50%;
+}
+
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
 
