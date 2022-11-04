@@ -1,3 +1,43 @@
+body {
+  overflow-x: hidden;
+}
+.navbar{
+overflow-x: hidden;
+}
+
+.mynav a{
+text-decoration: none;
+color: white;
+padding: 15px;
+}
+
+.mynav a:hover{
+  background-color: violet;
+}
+
+
+.mynav{
+  display: flex;
+  width: 50%;
+  height: 50%;
+ justify-content: space-between;
+ margin: auto 0;
+}
+
+#landing, #about, #W-E, #skills, #projects, #testimonials, #contact{
+
+  scroll-margin-block: 60px;
+}
+
+.progress-bar{
+  background-color: fuchsia;
+}
+
+.mybuttons:hover{
+
+  background-color: blueviolet;
+}
+
 .car-img{
     object-fit: cover;
 }
@@ -7,6 +47,24 @@ height: 100px;
 width: 200px;
 padding: 10px;
 }
+
+#W-E .form-check-input{
+  padding: 0;
+  /* height: 10px;
+  width: 10px; */
+}
+
+.carousel-indicators{
+  margin-bottom: -4rem;
+}
+
+#carouselExampleFade button{
+  height: 20px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+
 
 form,
 input,
@@ -28,6 +86,8 @@ form {
   width: 75%;
  
 }
+
+
 
 
 
@@ -54,6 +114,35 @@ form {
   overflow: hidden;
   background: none !important;
   height: 500px;
-  width: 600px;
+  width: 100%;
 }
 
+.landing{
+
+  height: 100vh;
+  background-image: url(/Images/Tempic3.jpg);
+  background-size: cover;
+}
+
+
+.navbar-nav{
+display: none;
+}
+
+@media screen and (max-width: 720px){
+
+.navbar{
+  overflow:hidden ;
+}
+  .img-fluid{
+max-width: 20%;
+object-fit: cover;
+  
+  }
+
+  .mynav{
+
+    display: none;
+  }
+
+}

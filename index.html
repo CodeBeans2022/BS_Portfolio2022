@@ -1,71 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css">
-    <title>My Portfolio</title>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://kit.fontawesome.com/850ca6a355.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="/styles.css">
+  <title>My Portfolio</title>
 </head>
-<body class="">
-     
-    <nav class="navbar navbar-dark bg-dark sticky-top">
 
-        <div class="container-fluid">
+<body>
 
-          <a class="navbar-brand" href="#"><img src="/initails.png" alt="JK" width="60" height="30"></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <div class="container-fluid ">
 
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <a class="navbar-brand" href="#">
+        <img src="/initails.png" alt="JK" width="60" height="30">
+      </a>
 
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">My NAV</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <ul class="mynav" style="list-style: none;">
+        
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#W-E">Work & Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        
+      </ul>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#W-E">Work & Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+
+          </ul>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </nav>
+
+  <!-- Landing Section -->
+  <section class="landing" id="landing">
+
+    <div class="container">
+
+
+      <div class="row">
+
+        <div class="col">
+
+          <h1 class="text-light text-center m-5">Hello, welcome to my Portfolio</h1>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+
+    <div class="container">
+
+
+      <div class="row">
+
+        <h1 class="text-center m-5">About</h1>
+
+      </div>
+
+      <div class="row mt-5 mb-5">
+
+        <div class="col">
+          <img class="img-fluid" src="/Images/MyPortrait.jpeg" height="200px" width="200px" style="border-radius: 50%;"
+            alt="">
+        </div>
+
+        <div class="col">
+
+
+          <div class="row">
+
+            <div class="col-12 m-4">
+
+              <p>
+                I am driven and self-motivated. I work hard to achieve my dreams and
+                goals. Furthermore, I am someone who would go above and beyond for
+                any company I work for and others in general. I believe in integrity
+                and loyalty. My greatest strengths are sympathy and empathy. I am a
+                caring and loving person that will always put my family and others
+                before myself.
+              </p>
+              <p>
+                My love and passion for technology started at a young age. Growing
+                up around my brother and cousins playing video games fascinated me.
+                My first time using technology was to play video games, and I loved
+                it! Still do. As the years went by, I became more interested in what
+                makes technology work. My passion grew even more when I studied I. T
+                and Computer Sciences. Ever since, it has been my dream to pursue
+                various fields in the tech industry.
+              </p>
+
             </div>
 
-            <div class="offcanvas-body">
 
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <div class="col m-4">
 
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
+              <table class="table">
+                <tr>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
+                  <th>Name</th>
+                  <td>Jamie-Lee Kinnear</td>
 
-                <li class="nav-item dropdown">
+                </tr>
 
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
+                <tr>
 
-                  <ul class="dropdown-menu dropdown-menu-dark">
+                  <th>Age</th>
+                  <td>21</td>
 
-                    <li><a class="dropdown-item" href="#">Action</a></li>
+                </tr>
 
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                <tr>
 
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
+                  <th>Gender</th>
+                  <td>Female</td>
 
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </tr>
 
-                  </ul>
+                <tr>
 
-                </li>
-                
-              </ul>
+                  <th>Nationality</th>
+                  <td>South African</td>
 
+                </tr>
+
+
+              </table>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+  <!-- Work and Education Section -->
+  <section id="W-E">
+
+    <div class="container">
+
+      <div class="row">
+        <h1 class="text-center m-5">Work & Education</h1>
+      </div>
+
+      <div class="row">
+
+
+
+        <div class="col d-flex justify-content-end">
+
+          <div class="form-check form-switch">
+
+            <label class="form-check-label" for="flexSwitchCheckDefault">Show All</label>
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+              data-bs-toggle="collapse" data-bs-target=".collapse">
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container-fluid text-center">
+
+        <!-- Row One -->
+        <div class="row mb-5">
+
+          <!-- Work -->
+          <div class="col col-sm-6  ">
+
+            <button class="btn mybuttons shadow" data-aos="fade-right" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false"
+              aria-controls="collapseExample">
+              EXL
+            </button>
+
+            <div class="collapse" id="collapseExample1">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Education  -->
+          <div class="col  col-sm-6 ">
+
+            <button class="btn mybuttons shadow" data-aos="fade-left" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false"
+              aria-controls="collapseExample">
+              Udemy
+            </button>
+
+            <div class="collapse" id="collapseExample2">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
 
             </div>
 
@@ -73,1062 +263,928 @@
 
         </div>
 
-      </nav>
+        <!-- Row Two -->
+        <div class="row mb-5">
 
-<!-- Landing Section -->
-<section class="position-relative">
+          <!-- Work -->
+          <div class="col ">
 
-      <div class="container">
+            <button class="btn mybuttons shadow" data-aos="fade-right" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false"
+              aria-controls="collapseExample">
+              Rocomamas
+            </button>
+
+            <div class="collapse" id="collapseExample3">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Education -->
+          <div class="col">
+
+            <button class="btn mybuttons shadow" data-aos="fade-left" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false"
+              aria-controls="collapseExample">
+              LifeChoices Academy
+            </button>
+
+            <div class="collapse" id="collapseExample4">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Row Three -->
+        <div class="row mb-5">
+
+          <!-- Work -->
+          <div class="col">
+
+            <button class="btn mybuttons shadow" data-aos="fade-right" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false"
+              aria-controls="collapseExample">
+              Mugg & Bean
+            </button>
+
+            <div class="collapse" id="collapseExample5">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Education -->
+          <div class="col">
+
+            <button class="btn mybuttons shadow" data-aos="fade-left" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false"
+              aria-controls="collapseExample">
+              Balco College
+            </button>
+
+            <div class="collapse" id="collapseExample6">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
 
 
-<div class="row position-absolute" style="z-index: 1; top: 20px; left: 10em; right: 10em;">
+        <!-- Row Four -->
+        <div class="row mb-5">
 
-<div class="col border">
+          <!-- Work -->
+          <div class="col">
 
-    <h1 class=" m-3 text-center text-light ">Hello, welcome to my Portfolio :) </h1>
-  
-</div>
+            <button class="btn mybuttons shadow" data-aos="fade-right" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false"
+              aria-controls="collapseExample">
+              Shift Espresso Bar
+            </button>
 
-</div>
+            <div class="collapse" id="collapseExample7">
 
-    <div class="row">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
 
-<div class="col" style="z-index: 0;">
+            </div>
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          </div>
 
-    <div class="carousel-inner rounded-4 mt-4">
+          <!-- Education -->
+          <div class="col">
 
-      <div class="carousel-item active" data-bs-interval="2000">        
-        
-        <img src="/Images/Tempic1.jpg" class="d-block w-100 car-img" alt="..." height="500px" width="500px">
+            <button class="btn mybuttons shadow" data-aos="fade-left" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false"
+              aria-controls="collapseExample">
+              Westridge High
+            </button>
 
-      </div>
+            <div class="collapse" id="collapseExample8">
 
-      <div class="carousel-item" data-bs-interval="2000">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
 
-        <img src="/Images/tempic2.jpg" class="d-block w-100 car-img" alt="..." height="500px" width="500px">
-      </div>
+            </div>
 
-      <div class="carousel-item" data-bs-interval="2000">
+          </div>
 
-        <img src="/Images/Tempic3.jpg" class="d-block w-100 car-img" alt="..." height="500px" width="500px">
+        </div>
+
+
+        <!-- Row Five -->
+        <div class="row mb-5">
+
+          <!-- Work -->
+          <div class="col">
+
+            <button class="btn mybuttons shadow" data-aos="fade-right" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample9" aria-expanded="false"
+              aria-controls="collapseExample">
+              Mugg & Bean
+            </button>
+
+            <div class="collapse" id="collapseExample9">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Education -->
+          <div class="col">
+
+            <button class="btn mybuttons shadow" data-aos="fade-left" data-aos-duration="2000" id="timeline"
+              type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample10" aria-expanded="false"
+              aria-controls="collapseExample">
+              Crawford CoCT
+            </button>
+
+            <div class="collapse" id="collapseExample10">
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Row Six -->
+        <div class="row mb-5">
+
+          <!-- Shortcut to add space so the the next column goes to other side. Temp fix -->
+          <div class="col-6">
+
+          </div>
+
+          <div class="col ">
+
+            <button class="btn mybuttons shadow" data-aos="fade-left" data-aos-duration="2000" id="timeline"
+              type="button" . data-bs-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
+              Portland High
+            </button>
+
+            <div class="collapse" id="collapseExample11">
+
+
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
 
       </div>
 
     </div>
 
- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+  </section>
 
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+  <!-- Skills Section -->
+  <section id="skills">
 
-    </button>
+    <div class="container">
 
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <div class="row">
 
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+        <div class="col text-center m-5">
 
-    </button>
+          <h1>Skills</h1>
 
-  </div>
-
-</div>
-
-    </div>
+        </div>
 
       </div>
 
-    </section>
-
-      <!-- About Section -->
-<section>
-
-<div class="container">
-
-
-<div class="row">
-
-<h1 class="text-center m-5">About</h1>
-
-</div>
-
- <div class="row mt-5 mb-5">
-
-  <div class="col">
-    <img src="/Images/MyPortrait.jpeg" height="500px" width="500px" style="border-radius: 50%;" alt="">
-  </div>
-
-  <div class="col">
-
-
-<div class="row">
-
-<div class="col-12 m-4">
-
-  <p>
-    My greatest strenghts are empathy and sympathy.I am a loving and caring
-    person that always puts others before myself. I am passionate about
-    everything to do with technology, including coding. I enjoy hiking and
-    gaming in my free time. I hope to one day fulfill my dreams and become an
-    ethical hacker.
-  </p>
-
-</div>
-
-
-<div class="col m-4">
-
-  <table class="table">
-    <tr>
-
-      <th>Name</th>
-      <td>Jamie-Lee Kinnear</td>
-
-    </tr>
-
-    <tr>
-
-      <th>Age</th>
-      <td>21</td>
-
-    </tr>
-
-    <tr>
-
-      <th>Gender</th>
-      <td>Female</td>
-
-    </tr>
-
-    <tr>
-
-      <th>Nationality</th>
-      <td>South African</td>
-
-    </tr>
-
-   
-  </table>
-
-</div>
-
-</div>
-
-  
-  </div>
-
-  </div>
-
- 
-
- </div>
-
-    </section>
-
-      <!-- Work and Education Section -->
-<section>
-      
-      <div class="container">
-
-<div class="row">
-  <h1 class="text-center m-5">Work & Education</h1>
-</div>
-
-<div class="row">
-
-  <div class="col-10"></div>
-  
-  <div class="col">
-  
-    <div class="form-check form-switch">
-  
-      <label class="form-check-label" for="flexSwitchCheckDefault">Show All</label>
-      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" data-bs-toggle="collapse" data-bs-target=".collapse">
-     
-    </div>
-  
-  </div>
-  
-  </div>
-
-<div class="row" style="margin-left: 200px;">
-
-<!-- Row One -->
-<div class="row">
-
-  <!-- Work -->
-<div class="col m-5">
- 
-<button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-    EXL
-  </button>
-
-<div class="collapse" id="collapseExample1">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-<!-- Education  -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-    Udemy
-  </button>
-
-<div class="collapse" id="collapseExample2">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Row Two -->
-<div class="row">
-
-  <!-- Work -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-    Rocomamas
-  </button>
-
-<div class="collapse" id="collapseExample3">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-<!-- Education -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-  LifeChoices Academy
-  </button>
-
-<div class="collapse" id="collapseExample4">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Row Three -->
-<div class="row">
-
-  <!-- Work -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
-    Mugg & Bean
-  </button>
-
-<div class="collapse" id="collapseExample5">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-<!-- Education -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
-    Balco College
-  </button>
-
-<div class="collapse" id="collapseExample6">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- Row Four -->
-<div class="row">
-
-  <!-- Work -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
-    Shift Espresso Bar
-  </button>
-
-<div class="collapse" id="collapseExample7">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-<!-- Education -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
-    Westridge High
-  </button>
-
-<div class="collapse" id="collapseExample8">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- Row Five -->
-<div class="row">
-
-  <!-- Work -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">
-    Mugg & Bean
-  </button>
-
-<div class="collapse" id="collapseExample9">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-<!-- Education -->
-<div class="col m-5">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">
-   Crawford CoCT
-  </button>
-
-<div class="collapse" id="collapseExample10">
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- Row Six -->
-<div class="row">
-
-  <!-- Shortcut to add space so the the next column goes to other side. Temp fix -->
-<div class="col-6">
-
-</div>
-
-<div class="col m-5 ">
-
-  <button class="btn btn-primary shadow" id="timeline" type="button" . data-bs-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
-    Portland High
-  </button>
-
-<div class="collapse" id="collapseExample11">
-  
-
-  <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-      <!-- Skills Section -->
-<section>
-
-      <div class="container">
-
-<div class="row">
-
-<div class="col text-center m-5">
-
-<h1>Skills</h1>
-
-</div>
-
-</div>
-
-
-<div class="row">
-
-<div class="col">
-
-<table class="table table-borderless text-center">
-
-  <tr>
-
-<th> <h2>Hard</h2> </th>
-
-  </tr>
-
-<tr>
-
-<td>HTML</td>
-
-</tr>
-
- <tr>
-
-<td>CSS</td>
-
-</tr>
-
-<tr>
-
-  <td>bootstrap</td>
-  
-</tr>
-
-  <tr>
-
-    <td>Javascript</td>
-    
-  </tr>
-
-    <tr>
-
-      <td>MySQL</td>
-      
-    </tr>
-
-      <tr>
-
-        <td>Visual Basic</td>
-        
-      </tr>
-
-</table>
-
-</div>
-
-<div class="col">
-
-  <table class="table table-borderless text-center">
-
-    <tr>
-  
-  <th> <h2>Soft</h2> </th>
-  
-    </tr>
-  
-  <tr>
-  
-  <td>Puntual</td>
-  
-  </tr>
-  
-   <tr>
-  
-  <td>Empathy</td>
-  
-  </tr>
-  
-  <tr>
-  
-    <td>bootstrap</td>
-    
-  </tr>
-  
-    <tr>
-  
-      <td>Javascript</td>
-      
-    </tr>
-  
-      <tr>
-  
-        <td>MySQL</td>
-        
-      </tr>
-  
-        <tr>
-  
-          <td>Visual Basic</td>
-          
-        </tr>
-  
-  </table>
-
-</div>
-
-</div>
-
-
-
-</div>
-
-</section>
-
-      <!-- Project Section -->
-      <section>
-
-      <div class="container">
-
-<div class="row">
-
-<div class="col">
-
-<h1 class="m-5 text-center">Projects</h1>
-
-</div>
-
-</div>
 
       <div class="row m-5">
 
-<div class="col-sm-12 ">
 
-  <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="col">
+
+          <h1>HTML</h1>
+
+        </div>
+
+        <div class="col">
+
+          <div class="progress" style="height: 50px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 70%;">70%</div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="row m-5">
+
+        <div class="col">
+
+          <h1>CSS</h1>
+
+        </div>
+
+        <div class="col">
+
+          <div class="progress" style="height: 50px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 40%">40%</div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="row m-5">
+
+        <div class="col">
+
+          <h1>Bootstrap</h1>
+
+        </div>
+
+        <div class="col">
+
+          <div class="progress" style="height: 50px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 20%">20%</div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="row m-5">
+
+
+        <div class="col">
+
+          <h1>Javascript</h1>
+
+        </div>
+
+        <div class="col">
+
+          <div class="progress" style="height: 50px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 10%">10%</div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="row m-5">
+
+        <div class="col">
+
+          <h1>MySQL</h1>
+
+        </div>
+
+        <div class="col">
+
+          <div class="progress" style="height: 50px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 25%">25%</div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="row m-5">
+
+        <div class="col">
+
+          <h1>Visual Basic</h1>
+
+        </div>
+
+        <div class="col">
+
+          <div class="progress" style="height: 50px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated text-center" role="progressbar"
+              aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 30%">30%</div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+  </section>
+
+  <!-- Project Section -->
+  <section id="projects">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col">
+
+          <h1 class="m-5 text-center">Projects</h1>
+
+        </div>
+
+      </div>
+
+      <div class="row m-5">
+
+        <div class="col-sm-12 ">
+
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <div class="row ">
+              <div class="col">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1" value="1"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="8"
+                    aria-label="Slide 9"></button>
+                  <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="9"
+                    aria-label="Slide 10"></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-inner">
+
+              <!-- Card 1 -->
+              <div class="carousel-item active">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Ecommerce_Project.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 2 -->
+              <div class="carousel-item" id="card2">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Carousel Project.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 3 -->
+              <div class="carousel-item" id="card3">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Cards2022.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 4 -->
+              <div class="carousel-item" id="card4">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Beans2021.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 5 -->
+              <div class="carousel-item" id="card5">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Calculator.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 6 -->
+              <div class="carousel-item" id="card6">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/My-Bakery.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 7 -->
+              <div class="carousel-item" id="card7">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Final-Project2021.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 8 -->
+              <div class="carousel-item" id="card8">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Portfolio-proj.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 9 -->
+              <div class="carousel-item" id="card9">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Portfolio2022.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 10 -->
+              <div class="carousel-item" id="card10">
+
+                <div class="card mx-auto" style="width: 18rem;">
+                  <img src="/Images/Portfolioproj2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+  </section>
+
+  <!-- Testimonial Section -->
+
+  <section class="container" id="testimonials">
+
+    <!-- <div class="container"> -->
 
     <div class="row">
-    <div class="col border">
-    <div class="carousel-indicators bg-dark">
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" value="1"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="5" aria-label="Slide 6"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="6" aria-label="Slide 7"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="7" aria-label="Slide 8"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="8" aria-label="Slide 9"></button>
-    <button type="button" data-bs-target="#carouselExampleFade1" data-bs-slide-to="9" aria-label="Slide 10"></button>
-  </div>
-</div>
-</div>
 
-    <div class="carousel-inner">
+      <div class="col">
 
-       <!-- Card 1 -->
-       <div class="carousel-item active">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Ecommerce_Project.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 2 -->
-      <div class="carousel-item" id="card2">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Carousel Project.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 3 -->
-      <div class="carousel-item" id="card3">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Cards2022.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 4 -->
-      <div class="carousel-item" id="card4">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Beans2021.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 5 -->
-      <div class="carousel-item" id="card5">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Calculator.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 6 -->
-      <div class="carousel-item" id="card6">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/My-Bakery.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 7 -->
-      <div class="carousel-item" id="card7">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Final-Project2021.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 8 -->
-      <div class="carousel-item" id="card8">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Portfolio-proj.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 9 -->
-      <div class="carousel-item" id="card9">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Portfolio2022.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Card 10 -->
-      <div class="carousel-item" id="card10">
-
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="/Images/Portfolioproj2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
+        <h1 class="mt-5 text-center">Testimonials</h1>
 
       </div>
 
     </div>
 
+    <div class="row">
 
-  </div>
+      <div class="col-12 col-md-6 accordion mx-auto" id="accordionExample">
 
-</div>
+        <!-- Testi 1 -->
+        <div class="accordion-item m-5 " data-aos="flip-down" data-aos-offset="-100px" data-aos-duration="2000">
 
-      </div>
+          <h2 class="accordion-header" id="headingOne">
 
-    </section>
+            <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Abdul Wahhaab Abrahams
+            </button>
 
-      <!-- Testimonial Section -->
+          </h2>
 
-      <section>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
 
-      <div class="container">
+            <div class="accordion-body" style="height: 400px;">
 
-        <div class="row">
+              <div class="card text-bg-dark" style="height: 370px;">
+                <img src="/Images/Abdul.png" class="card-img" alt="..." style="object-fit: cover; height:370px;">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
 
-          <div class="col">
-
-<h1 class="m-5 text-center">Testimonials</h1>
-
-          </div>
-
-        </div>
-
-<div class="row m-5">
-
-<div class="col">
-
-  <div class="accordion mx-auto" id="accordionExample" style="width: 600px;">
-
-    <!-- Testi 1 -->
-    <div class="accordion-item m-5">
-
-      <h2 class="accordion-header" id="headingOne">
-
-        <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Abdul Wahhaab Abrahams
-        </button>
-
-      </h2>
-
-      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-
-        <div class="accordion-body" style="height: 400px;">
-
-          <div class="card text-bg-dark" style="height: 370px;">
-            <img src="/Images/Abdul.png" class="card-img" alt="..."style="object-fit: cover; height:370px;" >
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
             </div>
+
           </div>
 
         </div>
 
-      </div>
+        <!-- Testi 2 -->
+        <div class="accordion-item m-5" data-aos="flip-down" data-aos-offset="-100px" data-aos-duration="2000">
 
-    </div>
+          <h2 class="accordion-header" id="headingTwo">
 
-    <!-- Testi 2 -->
-    <div class="accordion-item m-5">
+            <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Mu'eed Brown
+            </button>
 
-      <h2 class="accordion-header" id="headingTwo">
+          </h2>
 
-        <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Mu'eed Brown
-        </button>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
 
-      </h2>
+            <div class="accordion-body" style="height:400px ;">
 
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="card text-bg-dark" style="height: 370px;">
+                <img src="..." class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
 
-        <div class="accordion-body" style="height:400px ;">
-
-          <div class="card text-bg-dark" style="height: 370px;">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
             </div>
+
           </div>
 
         </div>
 
-      </div>
+        <!-- Testi 3 -->
+        <div class="accordion-item m-5" data-aos="flip-down" data-aos-offset="-100px" data-aos-duration="2000">
 
-    </div>
+          <h2 class="accordion-header" id="headingThree">
 
-    <!-- Testi 3 -->
-    <div class="accordion-item m-5">
+            <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Savannah Samuels
+            </button>
 
-      <h2 class="accordion-header" id="headingThree">
+          </h2>
 
-        <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Savannah Samuels
-        </button>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
 
-      </h2>
+            <div class="accordion-body" style="height:400px ;">
 
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="card text-bg-dark" style="height: 370px;">
+                <img src="/Images/Savannah.png" class="card-img" alt="..." style="object-fit: cover; height:370px;">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
 
-        <div class="accordion-body" style="height:400px ;">
-
-          <div class="card text-bg-dark" style="height: 370px;">
-            <img src="/Images/Savannah.png" class="card-img" alt="..." style="object-fit: cover; height:370px;">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
             </div>
+
           </div>
 
         </div>
 
-      </div>
+        <!-- Testi 4 -->
+        <div class="accordion-item m-5" data-aos="flip-down" data-aos-offset="-100px" data-aos-duration="2000">
 
-    </div>
+          <h2 class="accordion-header" id="headingFour">
 
-<!-- Testi 4 -->
-    <div class="accordion-item m-5">
+            <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              Nabila Samsodien
+            </button>
 
-      <h2 class="accordion-header" id="headingFour">
+          </h2>
 
-        <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-          Nabila Samsodien
-        </button>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
 
-      </h2>
+            <div class="accordion-body" style="height:400px ;">
 
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="card text-bg-dark" style="height: 370px;">
+                <img src="/Images/Nabila.png" class="card-img" alt="..." style="object-fit: cover; height:370px;">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
 
-        <div class="accordion-body" style="height:400px ;">
-
-          <div class="card text-bg-dark" style="height: 370px;">
-            <img src="/Images/Nabila.png" class="card-img" alt="..." style="object-fit: cover; height:370px;">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
             </div>
+
           </div>
 
         </div>
 
-      </div>
+        <!-- Testi 5 -->
+        <div class="accordion-item m-5" data-aos="flip-down" data-aos-offset="-100px" data-aos-duration="2000">
 
-    </div>
+          <h2 class="accordion-header" id="headingFive">
 
-    <!-- Testi 5 -->
-    <div class="accordion-item m-5">
+            <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              Ryan Thomas
+            </button>
 
-      <h2 class="accordion-header" id="headingFive">
+          </h2>
 
-        <button class="accordion-button collapsed shadow" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-          Ryan Thomas
-        </button>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
 
-      </h2>
+            <div class="accordion-body " style="height:400px ;">
 
-      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="card text-bg-dark" style="height: 370px;">
+                <img src="..." class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                </div>
+              </div>
 
-        <div class="accordion-body " style="height:400px ;">
-
-          <div class="card text-bg-dark" style="height: 370px;">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small>Last updated 3 mins ago</small></p>
             </div>
+
           </div>
 
         </div>
 
       </div>
 
+
     </div>
 
-  </div>
 
-</div>
 
-</div>
+  </section>
+
+  <!-- Contact Section -->
+
+  <section id="contact" class="container">
+
+
+    <div class="row">
+
+      <div class="col">
+
+        <h1 class="m-5 text-center">Contact Me</h1>
 
       </div>
 
-    </section>
+    </div>
 
-      <!-- Contact Section -->
+    <div class="row">
 
-      <section>
+      <div class="col myform ">
 
-      <div class="container">
+        <form action="https://formspree.io/f/xpzknqyr" method="POST">
+          <input class="placeholder1" type="text" placeholder="First Name" />
+          <input class="placeholder1" type="text" placeholder="Last Name" />
+          <input class="placeholder1" type="email" placeholder="Email" />
+          <input class="placeholder1" type="text" placeholder="Phone Number" />
+          <textarea class="placeholder1" name="message" id="message" placeholder="Type Message"></textarea>
 
-        <div class="row">
+          <button class="placeholder1 shadow" type="submit">Send</button>
+          <button class="placeholder1 shadow" type="reset">Reset</button>
 
-<div class="col">
+        </form>
 
-<h1 class="m-5 text-center">Contact Me</h1>
+      </div>
 
-</div>
+
+    </div>
+
+    <div class="row">
+      <div class="col mapouter">
+        <div class="gmap_canvas">
+
+          <iframe width="500" height="500" id="gmap_canvas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267592850428!2d18.49050991560426!3d-33.98565983256563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1633611581000!5m2!1sen!2sza"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
         </div>
-
-<div class="row m-5">
-
-  <div class="col myform ">
-
-    <form action="https://formspree.io/f/xpzknqyr" method="POST">
-      <input class="placeholder1" type="text" placeholder="First Name" />
-      <input class="placeholder1" type="text" placeholder="Last Name" />
-      <input class="placeholder1" type="email" placeholder="Email" />
-      <input class="placeholder1" type="text" placeholder="Phone Number" />
-      <textarea class="placeholder1"
-        name="message"
-        id="message"
-        placeholder="Type Message"
-      ></textarea>
-
-      <button class="placeholder1 shadow" type="submit">Send</button>
-      <button class="placeholder1 shadow" type="reset">Reset</button>
-     
-    </form>
-
-  </div>
-
-  <div class="col">
-
-    <div class="mapouter">
-      <div class="gmap_canvas">
-
-        <iframe
-          width="1000"
-          height="1000"
-          id="gmap_canvas"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267592850428!2d18.49050991560426!3d-33.98565983256563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1633611581000!5m2!1sen!2sza"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-        ></iframe>
       </div>
+
+
     </div>
 
-  </div>
 
-</div>
 
-      </div>
+  </section>
 
-    </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/850ca6a355.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
