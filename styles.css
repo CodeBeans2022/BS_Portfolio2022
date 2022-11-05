@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+
 }
 .navbar{
 overflow-x: hidden;
@@ -16,11 +17,15 @@ padding: 15px;
 }
 
 
+.card-testi {
+  position: relative;
+}
+
 .mynav{
   display: flex;
-  width: 50%;
+  width: 100%;
   height: 50%;
- justify-content: space-between;
+ justify-content: end;
  margin: auto 0;
 }
 
@@ -38,8 +43,8 @@ padding: 15px;
   background-color: blueviolet;
 }
 
-.car-img{
-    object-fit: cover;
+.card img{
+   width: 800px;
 }
 
  #timeline {
@@ -59,7 +64,8 @@ padding: 10px;
 }
 
 #carouselExampleFade button{
-  height: 20px;
+  height: 30px;
+  width: 50px;
   border-radius: 50%;
   background-color: blueviolet;
 }
@@ -83,12 +89,14 @@ form {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 75%;
+  width: 40%;
  
 }
 
 
-
+.card-img{
+  object-fit: contain;
+}
 
 
 .myform {
@@ -105,9 +113,10 @@ form {
 
 .mapouter {
   position: relative;
-  text-align: right;
+  text-align: center;
   height: 500px;
   width: 600px;
+  margin: 30px 0 ;
 }
 
 .gmap_canvas {
@@ -120,7 +129,7 @@ form {
 .landing{
 
   height: 100vh;
-  background-image: url(/Images/Tempic3.jpg);
+  background-image: url(/Images/myimage.png);
   background-size: cover;
 }
 
@@ -129,13 +138,13 @@ form {
 display: none;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 960px){
 
 .navbar{
   overflow:hidden ;
 }
   .img-fluid{
-max-width: 20%;
+max-width: 100%;
 object-fit: cover;
   
   }
@@ -145,4 +154,14 @@ object-fit: cover;
     display: none;
   }
 
+}
+
+@media screen and (max-width: 720px){
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+   
+  }
 }
