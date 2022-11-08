@@ -1,7 +1,12 @@
 body {
   overflow-x: hidden;
-
+font-family:sans-serif ;
 }
+
+
+
+/* Navbar */
+
 .navbar{
 overflow-x: hidden;
 }
@@ -16,11 +21,6 @@ padding: 15px;
   background-color: violet;
 }
 
-
-.card-testi {
-  position: relative;
-}
-
 .mynav{
   display: flex;
   width: 100%;
@@ -29,35 +29,67 @@ padding: 15px;
  margin: auto 0;
 }
 
+.navbar-nav{
+  display: none;
+  width: 100%;
+  height: 50%;
+  margin: auto 0;
+  }
+
+  .navbar-nav a {
+    text-decoration: none;
+    color: blueviolet;
+  }
+
+  .navbar-nav li{
+
+    padding: 20px;
+  }
+
+  .navbar-nav a:hover{
+    background-color: violet;
+  }
+
 #landing, #about, #W-E, #skills, #projects, #testimonials, #contact{
 
   scroll-margin-block: 60px;
 }
 
-.progress-bar{
-  background-color: fuchsia;
+/* Landing Section */
+
+.landing{
+
+  height: 100vh;
+  background-image: url(/Images/myimage.png);
+  background-size: cover;
 }
+
+
+/* W&E Section */
 
 .mybuttons:hover{
 
   background-color: blueviolet;
 }
 
-.card img{
-   width: 800px;
-}
 
- #timeline {
+#timeline {
 height: 100px;
 width: 200px;
 padding: 10px;
 }
 
 #W-E .form-check-input{
-  padding: 0;
-  /* height: 10px;
-  width: 10px; */
+ padding: 0;
 }
+
+/* Skills Section */
+
+.progress-bar{
+  background-color: fuchsia;
+}
+
+/* Projects Section */
 
 .carousel-indicators{
   margin-bottom: -4rem;
@@ -70,7 +102,34 @@ padding: 10px;
   background-color: blueviolet;
 }
 
+.card-body a {
+  text-decoration: none;
+  color: blueviolet;
+}
 
+/* Testimonials Section */
+
+
+
+.card-testi {
+position: relative;
+font-size: 20px ;
+
+}
+
+.card-testi p {
+
+padding: 30px;
+
+}
+
+.card img{
+   width: 800px;
+   object-fit: cover;
+  
+}
+
+/* Contact Section */
 
 form,
 input,
@@ -93,10 +152,6 @@ form {
  
 }
 
-
-.card-img{
-  object-fit: contain;
-}
 
 
 .myform {
@@ -126,17 +181,18 @@ form {
   width: 100%;
 }
 
-.landing{
 
-  height: 100vh;
-  background-image: url(/Images/myimage.png);
-  background-size: cover;
+
+@media screen and (min-width: 960px){
+
+.navbar-toggler{
+
+display:none;
+
 }
 
-
-.navbar-nav{
-display: none;
 }
+
 
 @media screen and (max-width: 960px){
 
@@ -152,6 +208,16 @@ object-fit: cover;
   .mynav{
 
     display: none;
+  }
+
+  .navbar-nav{
+    display:block;
+  }
+
+  .card-testi p {
+ 
+    padding: 5px;
+font-size: 15px;
   }
 
 }
